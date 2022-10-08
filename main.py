@@ -18,4 +18,6 @@ for i in range(-(len(numbers1) // -2)):
 	evenlist.append(numbers1.pop(pop))
 	pop += 1
 
+print("The list numbers \n", numbers1)
+print("The list for even index elements\n", evenlist)
 #'Enter all elements values: '
