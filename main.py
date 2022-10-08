@@ -15,12 +15,8 @@ pop = 0
 evenlist = []
 
 for i in range(-(len(numbers1) // -2)): #so we get the ceiling instead of the floor
-	if i % 2 == 0:
-		evenlist.append(numbers1.pop(pop))
-		pop = 1
-	else:
-		evenlist.append(numbers1.pop(pop))
-		pop = 0
+	evenlist.append(numbers1.pop(pop))
+	pop += 1
 
 print(numbers1)
 print(evenlist)
