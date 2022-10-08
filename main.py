@@ -1,5 +1,5 @@
 
-inputvalues = input('Enter all elements values: ')
+inputvalues = input()
 numbers1 = inputvalues.split() 
 for i in range(len(numbers1)):
 	numbers1[i] = int(numbers1[i]) 
@@ -17,3 +17,5 @@ evenlist = []
 for i in range(-(len(numbers1) // -2)):
 	evenlist.append(numbers1.pop(pop))
 	pop += 1
+
+#'Enter all elements values: '
